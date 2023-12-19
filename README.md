@@ -21,7 +21,8 @@ while true; do
     echo "1. Wyszukaj pliki tekstowe w folderze"
     echo "2. Usuń ostatnią linię zapisanego tekstu w plikach"
     echo "3. Zabij 5 losowych procesów działających w tle"
-    echo "4. Wyjdź"
+    echo "4. Imię Autora"
+    echo "5. Wyjdź"
 
     read -p "Wybierz opcję: " option
 
@@ -47,6 +48,9 @@ while true; do
             echo "Zakończono zabijanie procesów."
             ;;
         4)
+            echo "Nikodem Wyka"
+            ;;
+        5)
             echo "Do widzenia!"
             exit 0
             ;;
